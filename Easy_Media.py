@@ -56,7 +56,7 @@ async def on_ready():
 # Fonction pour mettre à jour le leaderboard
 async def update_leaderboard(force=False):
     global tiktok_associations
-    channel_id = 1187747963720712282
+    channel_id = 1234567891234567890
     channel = bot.get_channel(channel_id)
 
     if channel:
@@ -308,4 +308,4 @@ async def on_message_edit(before, after):
     await bot.process_commands(after)
 
 # Lancer le bot avec le token approprié
-bot.run('MTE1ODMxNDEzMDYyNTc5NDA0OA.GGGIGD.zdCBeaVgjTXnU2riMMU1oAL0GqXmn-4NEIKqgk')
+bot.run('TOKEN')
